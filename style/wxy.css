@@ -1,0 +1,22 @@
+/* 补充一些组件 
+
+
+update 2017/8/24
+*/
+
+
+/*卡片视图 card */
+.card{font-size: 14px;border-radius: 2px;max-width:400px;margin: 10px;background-color: #FFFFFF;box-shadow:0 1px 2px rgba(0,0,0,.3);}
+.card_head,.card_foot{
+	min-height: 24px;
+	padding: 10px 15px;
+	line-height: 24px;
+}
+.card_head{font-size: 17px
+	border-radius:2px 2px 0 0;
+	border-bottom: 1px solid rgba(0,0,0,.05);
+	}
+.card .card_content{
+	padding: 15px;
+}
+.card_foot{border-radius: 0 0 2px 2px;color:#6d6d6d;border-top: 1px solid rgba(0,0,0,.05);}
